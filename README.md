@@ -2,9 +2,8 @@
 
 ## Requerimentos
 
-- O sistema deve permitir o cadastro de jogadores
-- O sistema deve permitir o cadastro de partidas
-- O sistema deve permitir a consulta de partidas
+- O sistema deve permitir o cadastro e consulta de jogadores
+- O sistema deve permitir o cadastro e consulta de partidas
 - O sistema deve permitir a alterações em partidas
 - O sistema deve permitir a avaliação de partidas
 - O sistema deve permitir a avaliação de jogadores
