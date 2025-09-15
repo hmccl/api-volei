@@ -193,6 +193,29 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
+    patch:
+      description: Marks a match as finished
+      operationId: addMatch
+      requestBody:
+        description: Match to change status
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Match'
+      responses:
+        '200':
+          description: match response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Match'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
   /matches/{id}:
     get:
       description: Returns a match based on a single ID
