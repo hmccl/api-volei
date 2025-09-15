@@ -18,3 +18,6 @@ Além disso, por causa da especificação é possível gerar códigos em
 diversas linguagens tanto para o servidor quanto para o cliente.
 Assim, o código *boilerplate* para a API acompanha a documentação
 e será possível focar na lógica de negócio.
+
+Para vizualizar a documentação da API cole o arquivo `api.yaml` no
+[Swagger Editor UI](https://editor.swagger.io/).
